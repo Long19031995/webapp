@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : index
     Created on : Apr 21, 2016, 6:07:19 PM
     Author     : KIM LONG
@@ -13,5 +13,11 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+
+        <form action="main" method="post">
+            <input type="text" name="username" value="username"/>
+            <input type="password" name="password" value="password"/>
+            <input type="submit" value="ok"/>
+        </form>
     </body>
 </html>
